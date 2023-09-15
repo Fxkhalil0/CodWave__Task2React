@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+**Short Report: Social Media Feed CodWave Task**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Task Overview:**
+In this project, I was tasked with creating a simple and responsive user interface for a social media feed using the React framework. The challenge was to ensure that the UI looked great on four different screen sizes (1200px, 992px, 768px, and 567px). Below, I will provide an overview of the key features and techniques I used to accomplish this task.
 
-## Available Scripts
+**Key Features:**
 
-In the project directory, you can run:
+**1-Responsive Design:** The social media feed UI is designed to adapt seamlessly to various screen sizes. It looks great whether you're viewing it on a large desktop monitor or a smaller mobile device.
 
-### `npm start`
+**2-Component Structure:** To keep the code organized and maintainable, I divided the UI into two main components and two sub-components. This modular structure allowed for easier management and updates.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**3-UseState Hook:** I utilized the useState hook to manage active styles on elements within the feed. This made it possible to toggle between different states, such as adding a friend or canceling a request.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**4-Dynamic Card Items:** To populate the feed, I used the map function to dynamically create card items. This ensured that the content is easily scalable and can accommodate various types of posts.
 
-### `npm test`
+**5-Add Friend Functionality:** One of the key interactions in a social media feed is the ability to add friends or connections. I implemented this feature using unique IDs and provided a smooth user experience for adding and canceling friend requests.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Responsive Design Screenshots:**
 
-### `npm run build`
+1200px: Screenshot
+992px: Screenshot
+768px: Screenshot
+567px: Screenshot
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Design Inspiration:**
+For design inspiration, I referred to a Behance project that aligns with the modern and user-friendly look we wanted to achieve. You can check out the design concept on Behance: https://www.behance.net/gallery/172132241/Social-Media-Website-Design?tracking_source=search_projects|social+media+website
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Conclusion:**
+Creating a responsive social media feed UI was an exciting challenge, and I'm pleased with the results. The UI adapts seamlessly to different screen sizes, making it user-friendly for a wide range of devices. The component structure, useState hook, and dynamic card item creation ensure that the code is both maintainable and scalable. I drew inspiration from a Behance design concept and made the code accessible on my GitHub repository for further exploration and development. Thank you to CodWave for this valuable internship opportunity, and I look forward to contributing more to the team's projects in the future.
